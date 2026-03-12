@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Weather Dashboard</h1>
+
+    <form>
+        <input type="text" class="search_area" placeholder="Enter city name" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div class="weather_card">
+        <h2 class="temp">-- °C</h2>
+        <img class="icon" src="" alt="weather icon">
+
+        <div class="time_location">
+            <p>--</p>
+            <span>--</span>
+        </div>
+
+        <div class="condition">
+            <p>--</p>
+        </div>
+
+        <div class="extra_details">
+            <p>Feels Like: <span class="feels_like">--</span> °C</p>
+            <p>Humidity: <span class="humidity">--</span>%</p>
+            <p>Wind Speed: <span class="wind">--</span> kph</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
